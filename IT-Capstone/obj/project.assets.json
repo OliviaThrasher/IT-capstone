@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kalic\\Downloads\\IT-Capstone\\IT-Capstone\\IT-Capstone\\IT-Capstone.vbproj",
+      "projectUniqueName": "C:\\Users\\Kalic\\OneDrive\\Documents\\GitHub\\IT-capstone\\IT-Capstone\\IT-Capstone.vbproj",
       "projectName": "IT-Capstone",
-      "projectPath": "C:\\Users\\Kalic\\Downloads\\IT-Capstone\\IT-Capstone\\IT-Capstone\\IT-Capstone.vbproj",
+      "projectPath": "C:\\Users\\Kalic\\OneDrive\\Documents\\GitHub\\IT-capstone\\IT-Capstone\\IT-Capstone.vbproj",
       "packagesPath": "C:\\Users\\Kalic\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kalic\\Downloads\\IT-Capstone\\IT-Capstone\\IT-Capstone\\obj\\",
+      "outputPath": "C:\\Users\\Kalic\\OneDrive\\Documents\\GitHub\\IT-capstone\\IT-Capstone\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
