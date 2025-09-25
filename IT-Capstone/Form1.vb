@@ -6,7 +6,7 @@ Public Class Form1
     Private ReadOnly transactions As New List(Of Transaction)
 
     ' form load
-    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+    Private Sub Form1Load(sender As Object, e As EventArgs) Handles MyBase.Load
         ' If any of these labels/textboxes were accidentally data-bound in the designer,
         ' clear the bindings so our code controls the Text values.
         IncomeOutput.DataBindings.Clear()
@@ -28,7 +28,7 @@ Public Class Form1
     End Sub
 
     ' add transaction
-    Private Sub AddButton_Click(sender As Object, e As EventArgs) Handles AddButton.Click
+    Private Sub AddButtonClick(sender As Object, e As EventArgs) Handles AddButton.Click
         ' validate amount
         Dim amount As Decimal
         If Not Decimal.TryParse(MoneyInput.Text, amount) OrElse amount <= 0D Then
@@ -76,7 +76,7 @@ Public Class Form1
     End Sub
 
     ' clear all
-    Private Sub ClearButton_Click(sender As Object, e As EventArgs) Handles ClearButton.Click
+    Private Sub ClearButtonClick(sender As Object, e As EventArgs) Handles ClearButton.Click
         transactions.Clear()
         ListBox1.Items.Clear()
         MoneyInput.Clear()
@@ -87,7 +87,7 @@ Public Class Form1
     End Sub
 
     ' delete from the list
-    Private Sub ListBox1_KeyDown(sender As Object, e As KeyEventArgs) Handles ListBox1.KeyDown
+    Private Sub ListBox1KeyDown(sender As Object, e As KeyEventArgs) Handles ListBox1.KeyDown
         If e.KeyCode = Keys.Delete AndAlso ListBox1.SelectedIndex >= 0 Then
             Dim txn As Transaction = CType(ListBox1.SelectedItem, Transaction)
             transactions.Remove(txn)
@@ -136,5 +136,45 @@ Public Class Form1
                                  [When], kind, Category, Description, Math.Abs(Amount))
         End Function
     End Class
+
+    Private Sub GroupBox1Enter(sender As Object, e As EventArgs) Handles GroupBox1.Enter
+
+    End Sub
+
+    Private Sub Label2Click(sender As Object, e As EventArgs) Handles Label2.Click
+
+    End Sub
+
+    Private Sub LabelListClick(sender As Object, e As EventArgs) Handles LabelList.Click
+
+    End Sub
+
+    ' save transactions to a text file
+    Private Sub SaveButtonClick(sender As Object, e As EventArgs) Handles SaveButton.Click
+        If ListBox1.Items.Count = 0 Then
+            MessageBox.Show("There are no transactions to save.", "nothing to save")
+            Return
+        End If
+
+        ' show save dialog
+        Using sfd As New SaveFileDialog()
+            sfd.Title = "Save Transactions"
+            sfd.Filter = "Text Files (*.txt)|*.txt|All Files (*.*)|*.*"
+            sfd.FileName = "transactions.txt"
+
+            If sfd.ShowDialog() = DialogResult.OK Then
+                Try
+                    Using writer As New IO.StreamWriter(sfd.FileName)
+                        For Each item In ListBox1.Items
+                            writer.WriteLine(item.ToString())
+                        Next
+                    End Using
+                    MessageBox.Show("Transactions saved successfully.", "Saved")
+                Catch ex As Exception
+                    MessageBox.Show("Error saving file: " & ex.Message, "Error")
+                End Try
+            End If
+        End Using
+    End Sub
 
 End Class

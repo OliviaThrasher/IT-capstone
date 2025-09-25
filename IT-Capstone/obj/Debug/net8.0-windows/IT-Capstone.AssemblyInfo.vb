@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("IT-Capstone"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+770835857db0a720d6cbb4eb3ebef69b6ccc53ac"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("IT-Capstone"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("IT-Capstone"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _
