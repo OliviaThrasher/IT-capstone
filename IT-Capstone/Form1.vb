@@ -212,7 +212,7 @@ Public Class Form1
     Private Sub menuHelpAbout_Click(sender As Object, e As EventArgs) Handles menuHelpAbout.Click
         Dim aboutText As String =
             "Personal Finance Manager" & vbCrLf &
-            "Version 0.4" & vbCrLf &
+            "Version 1.0" & vbCrLf &
             "Developed by: Fintech Force" & vbCrLf &
             "IT Capstone" & vbCrLf & vbCrLf &
             "© 2025"

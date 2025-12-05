@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Kalic\\OneDrive\\Documents\\GitHub\\IT-capstone\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6AE23921-11DD-41A5-9ED8-ED99B8481FC4}|IT-Capstone\\IT-Capstone.vbproj|c:\\users\\kalic\\onedrive\\documents\\github\\it-capstone\\it-capstone\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{6AE23921-11DD-41A5-9ED8-ED99B8481FC4}|IT-Capstone\\IT-Capstone.vbproj|solutionrelative:it-capstone\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AE23921-11DD-41A5-9ED8-ED99B8481FC4}|IT-Capstone\\IT-Capstone.vbproj|c:\\users\\kalic\\onedrive\\documents\\github\\it-capstone\\it-capstone\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{6AE23921-11DD-41A5-9ED8-ED99B8481FC4}|IT-Capstone\\IT-Capstone.vbproj|solutionrelative:it-capstone\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.vb",
+              "DocumentMoniker": "C:\\Users\\Kalic\\OneDrive\\Documents\\GitHub\\IT-capstone\\IT-Capstone\\Form1.vb",
+              "RelativeDocumentMoniker": "IT-Capstone\\Form1.vb",
+              "ToolTip": "C:\\Users\\Kalic\\OneDrive\\Documents\\GitHub\\IT-capstone\\IT-Capstone\\Form1.vb",
+              "RelativeToolTip": "IT-Capstone\\Form1.vb",
+              "ViewState": "AgIAAMsAAAAAAAAAAAAgwNYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-12-05T02:17:49.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Kalic\\OneDrive\\Documents\\GitHub\\IT-capstone\\IT-Capstone\\Form1.vb",
+              "RelativeDocumentMoniker": "IT-Capstone\\Form1.vb",
+              "ToolTip": "C:\\Users\\Kalic\\OneDrive\\Documents\\GitHub\\IT-capstone\\IT-Capstone\\Form1.vb [Design]",
+              "RelativeToolTip": "IT-Capstone\\Form1.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-12-05T02:17:49.864Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
