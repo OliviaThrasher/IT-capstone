@@ -1,14 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Kalic\\OneDrive\\Documents\\GitHub\\IT-capstone\\",
+  "WorkspaceRootPath": "C:\\Users\\Walter\\Desktop\\IT-Capstone\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Kalic\\OneDrive\\Documents\\GitHub\\IT-capstone\\IT-Capstone\\Form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IT-Capstone\\Form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{6AE23921-11DD-41A5-9ED8-ED99B8481FC4}|IT-Capstone\\IT-Capstone.vbproj|c:\\users\\walter\\desktop\\it-capstone\\it-capstone\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{6AE23921-11DD-41A5-9ED8-ED99B8481FC4}|IT-Capstone\\IT-Capstone.vbproj|solutionrelative:it-capstone\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Kalic\\OneDrive\\Documents\\GitHub\\IT-capstone\\it-capstone\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:it-capstone\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AE23921-11DD-41A5-9ED8-ED99B8481FC4}|IT-Capstone\\IT-Capstone.vbproj|c:\\users\\walter\\desktop\\it-capstone\\it-capstone\\it-capstone.vbproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{6AE23921-11DD-41A5-9ED8-ED99B8481FC4}|IT-Capstone\\IT-Capstone.vbproj|solutionrelative:it-capstone\\it-capstone.vbproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AE23921-11DD-41A5-9ED8-ED99B8481FC4}|IT-Capstone\\IT-Capstone.vbproj|c:\\users\\walter\\desktop\\it-capstone\\it-capstone\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{6AE23921-11DD-41A5-9ED8-ED99B8481FC4}|IT-Capstone\\IT-Capstone.vbproj|solutionrelative:it-capstone\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,17 +25,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Form1.vb",
-              "DocumentMoniker": "C:\\Users\\Kalic\\OneDrive\\Documents\\GitHub\\IT-capstone\\IT-Capstone\\Form1.vb",
+              "DocumentMoniker": "C:\\Users\\Walter\\Desktop\\IT-Capstone\\IT-Capstone\\Form1.vb",
               "RelativeDocumentMoniker": "IT-Capstone\\Form1.vb",
-              "ToolTip": "C:\\Users\\Kalic\\OneDrive\\Documents\\GitHub\\IT-capstone\\IT-Capstone\\Form1.vb",
+              "ToolTip": "C:\\Users\\Walter\\Desktop\\IT-Capstone\\IT-Capstone\\Form1.vb",
               "RelativeToolTip": "IT-Capstone\\Form1.vb",
-              "ViewState": "AQIAAEgAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AgIAALcAAAAAAAAAAAAUwM4AAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2025-08-26T00:22:03.957Z",
               "IsPinned": true,
@@ -36,27 +43,40 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IT-Capstone",
+              "DocumentMoniker": "C:\\Users\\Walter\\Desktop\\IT-Capstone\\IT-Capstone\\IT-Capstone.vbproj",
+              "RelativeDocumentMoniker": "IT-Capstone\\IT-Capstone.vbproj",
+              "ToolTip": "C:\\Users\\Walter\\Desktop\\IT-Capstone\\IT-Capstone\\IT-Capstone.vbproj",
+              "RelativeToolTip": "IT-Capstone\\IT-Capstone.vbproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003380|",
+              "WhenOpened": "2025-10-23T22:38:50.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAADkNAAAAAAAAAAAqwFQNAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-09-22T22:25:46.123Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\Kalic\\OneDrive\\Documents\\GitHub\\IT-capstone\\IT-Capstone\\Form1.vb",
+              "DocumentMoniker": "C:\\Users\\Walter\\Desktop\\IT-Capstone\\IT-Capstone\\Form1.vb",
               "RelativeDocumentMoniker": "IT-Capstone\\Form1.vb",
-              "ToolTip": "C:\\Users\\Kalic\\OneDrive\\Documents\\GitHub\\IT-capstone\\IT-Capstone\\Form1.vb [Design]",
+              "ToolTip": "C:\\Users\\Walter\\Desktop\\IT-Capstone\\IT-Capstone\\Form1.vb [Design]",
               "RelativeToolTip": "IT-Capstone\\Form1.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2025-08-26T00:19:32.507Z",
